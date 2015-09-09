@@ -46,14 +46,14 @@ class Lista
 end
 
 	dato = gets.chomp
-	lista = Lista.new(dato)
+	list = Lista.new(dato)
 	while dato != "-1"
 		dato = gets.chomp
 		if dato != "-1"
-			lista.agregar(dato)
+			agregar(dato)
 		end
 	end
-	puts lista.imprimir
+	puts imprimir
 
 	
 	
